@@ -1,0 +1,210 @@
+{
+    "name": "Henry Suarez Vaca",
+    "bornDate": "16/10/14990",
+    "education": "Universidad Nacional del Litoral - Facultad de Ingenieria y Ciencias Hidrigas",
+    "languages": [
+        {
+            "language": "Spanish",
+            "level": "Native"
+        },
+        {
+            "language": "English",
+            "level": "Advanced"
+        }
+    ],
+    "email": "henrysuarezv@hotmail.com",
+    "location": "Santa Fe - Argentina",
+    "linkedin": "https://www.linkedin.com/in/henrysuarezv/",
+    "mainSkills": "React.js, JavaScript, Typescript, React Native, Node.js, HTML, CSS",
+    "extraSkills": "SCRUM, GIT, Postman, JIRA, linux",
+    "description": "I enjoy working with all kinds of technologies and I try to apply my knowledge in interesting projects and I always try to learn new things to keep growing professionally. Working as a team with people from all over the world and getting to know other cultures is something incredible and I really like this cultural exchange.",
+    "jobs": [
+        {
+            "name": "NearPod",
+            "associated": "PSh",
+            "description": "Nearpod is a platform that lets teachers create and deliver interactive lessons, videos, and activities to students in real time. Students can join, interact, and get feedback on their learning, while teachers can monitor and adjust their teaching based on student understanding.Nearpod is a platform that lets teachers create and deliver interactive lessons, videos, and activities to students in real time. Students can join, interact, and get feedback on their learning, while teachers can monitor and adjust their teaching based on student understanding.    ",
+            "dateStart": "Mar 2023",
+            "dateEnd": "Sep 2023",
+            "skills": "React.js,PHP,Typescript,Angular",
+            "associatedImage": "wearepsh_logo.jpeg",
+            "projectImage": "",
+            "role": "Full Stack Engineer",
+            "urls": [
+                {
+                    "label": "Nearpod web",
+                    "url": "https://nearpod.com/"
+                },
+                {
+                    "label": "PSh web",
+                    "url": "https://wearepsh.com/"
+                }
+            ]
+        },
+        {
+            "name": "Kiddom",
+            "associated": "PSh",
+            "description": "Kiddom takes schools and districts into the future of personalized teaching and learning. For the first time, digital curriculum, instructional tools, and assessments are connected and integrated, all in one place. Using Kiddom, classrooms get the highest quality digital curriculum, saving teachers time and enabling students to take engaging, interactive assessments. Performance data is instantly accessible via beautiful, actionable reports, and teachers finally have the insight they need to offer targeted personalized support.Kiddom takes schools and districts into the future of personalized teaching and learning. For the first time, digital curriculum, instructional tools, and assessments are connected and integrated, all in one place. Using Kiddom, classrooms get the highest quality digital curriculum, saving teachers time and enabling students to take engaging, interactive assessments. Performance data is instantly accessible via beautiful, actionable reports, and teachers finally have the insight they need to offer targeted personalized support.",
+            "dateStart": "Jun 2022",
+            "dateEnd": "Mar 2023",
+            "skills": "React.js,Typescript",
+            "associatedImage": "wearepsh_logo.jpeg",
+            "role": "Frontend Engineer",
+            "urls": [
+                {
+                    "label": "Kiddom",
+                    "url": "https://www.kiddom.co/"
+                },
+                {
+                    "label": "PSh web",
+                    "url": "https://wearepsh.com/"
+                }
+            ]
+        },
+        {
+            "name": "Coinsource",
+            "associated": "Coinsource",
+            "description": "Coinsource is the world leader in secure Bitcoin ATMs. Buy and sell Bitcoin with cash at thousands of locations nationwide.    I worked as a Front-end developer in Angular creating dashboards oriented to the engineering team to manage ATM configurations, display transactions in real time, review customer data and everything related to the business.",
+            "dateStart": "Aug 2020",
+            "dateEnd": "Jun 2022",
+            "skills": "Node.js,JavaScript,Angular",
+            "associatedImage": "coinsource_logo.jpeg",
+            "role": "Frontend Engineer",
+            "urls": [
+                {
+                    "label": "Coinsource web",
+                    "url": "https://coinsource.net/"
+                }
+            ]
+        },
+        {
+            "name": "Buggy App",
+            "associated": "Freelancer",
+            "description": "Buggy came to put a new digital sales channel at your fingertips, optimizing processes and making interaction with consumers easy and agile.   Users will be able to make their purchases in a practical, simple way and pay using the usual means of payment.",
+            "dateStart": "Aug 2020",
+            "dateEnd": "Dec 2020",
+            "skills": "JavaScript,Angular,meteor",
+            "associatedImage": "buggyapp.png",
+            "role": "Frontend Engineer",
+            "urls": [
+                {
+                    "label": "Apple Store",
+                    "url": "https://apps.apple.com/es/app/buggy/id1631306052"
+                },
+                {
+                    "label": "Play Store",
+                    "url": "https://play.google.com/store/apps/details?id=com.mediapark.by.inabuggy&hl=es_AR&gl=US"
+                }
+            ]
+        },
+        {
+            "name": "Zivoya App",
+            "associated": "Folder IT",
+            "description": "Zivoya App is a mobile (IOs and Android platform) app oriented to make fly booking. ",
+            "dateStart": "Oct 2019",
+            "dateEnd": "Jul 2020",
+            "skills": "JavaScript,React Native",
+            "associatedImage": "folderit_logo.jpeg",
+            "role": "Frontend Engineer",
+            "urls": [
+                {
+                    "label": "Play Store",
+                    "url": "https://play.google.com/store/apps/details?id=com.zivoya&hl=es_HN&gl=US"
+                },
+                {
+                    "label": "Apple Store",
+                    "url": "https://apps.apple.com/us/app/zivoya-book-flights/id1488961166"
+                },
+                {
+                    "label": "Folder IT web",
+                    "url": "https://folderit.net/"
+                }
+            ]
+        },
+        {
+            "name": "Zest Truck Tracking Project – Zest Labs USA",
+            "associated": "Folder IT",
+            "description": "Zest Truck Tracking is a solution that aims to track trucks inside a given facility, e.g. a supplier's Pack house, using Iot devices (RFID tags and readers) to detect bottle necks and other inefficiencies in the paths that the drivers take in order to improve operational efficiency. As part of the tracking process the solution identifies which of the routes inside the facility each truck took and determines how long each step of the process took. The users are enabled to view the operation data and make decisions using an analytics dashboard which provides different views/groupings of the data. The main customer in this solution was the produce supplier Driscoll's. ",
+            "dateStart": "May 2017",
+            "dateEnd": "Sep 2019",
+            "skills": "JavaScript,JQuery,Angular,Selenium,meteor",
+            "associatedImage": "folderit_logo.jpeg",
+            "role": "Frontend Engineer",
+            "urls": [
+                {
+                    "label": "Zest Labs web",
+                    "url": "https://www.zestlabs.com/zest-fresh-for-produce/"
+                },
+                {
+                    "label": "Folder IT web",
+                    "url": "https://folderit.net/"
+                }
+            ]
+        },
+        {
+            "name": "GP Nutricionista",
+            "associated": "Folder IT",
+            "description": "This is a page belonging to a nutritionist, offering services ranging from online turns personal care services to sales through website diets. These diets have modules that are activated by weeks, these modules are composed of instructions in PDF and videos that are displayed on the web, every time a module is activated, the user is notified by e-mail as a reminder.",
+            "dateStart": "Apr 2016",
+            "dateEnd": "Dec 2016",
+            "skills": "JavaScript,MySQL,HTML,PHP",
+            "associatedImage": "folderit_logo.jpeg",
+            "role": "Full Stack Engineer",
+            "urls": [
+                {
+                    "label": "GP web",
+                    "url": "https://institutopanchakarma.com/"
+                },
+                {
+                    "label": "Folder IT web",
+                    "url": "https://folderit.net/"
+                }
+            ]
+        },
+        {
+            "name": "AYA mobile",
+            "associated": "Freelancer",
+            "description": "AYA mobile is a secured mobile application for electronic delivery channel whereby customers of the bank are able to perform real time banking transactions via mobile devices through Apps and SMS channel.",
+            "dateStart": "Jan 2016",
+            "dateEnd": "Apr 2016",
+            "skills": "JavaScript,meteor,MongoDB",
+            "associatedImage": "ayamobile.png",
+            "role": "Frontend Engineer",
+            "urls": [
+                {
+                    "label": "Apple Store",
+                    "url": "https://apps.apple.com/us/app/aya-mbanking-2-0/id1480199255"
+                },
+                {
+                    "label": "Play Store",
+                    "url": "https://play.google.com/store/apps/details?id=com.jits.mbanking.aya&hl=en_US"
+                }
+            ]
+        },
+        {
+            "name": "PuntoVentas",
+            "associated": "Folder IT",
+            "description": "This is a generic management system, is aimed to be adapted to any company that needs to keep a detailed record of products and services. It is designed in a modular way so that it conform to the needs that have the user in your company, it also aims to generate the greatest possible number of customizable reports.",
+            "dateStart": "Feb 2016",
+            "dateEnd": "Apr 2016",
+            "skills": "HTML,PHP,Laravel",
+            "associatedImage": "folderit_logo.jpeg",
+            "role": "Full Stack Engineer",
+            "urls": [
+                {
+                    "label": "Folder IT web",
+                    "url": "https://folderit.net/"
+                }
+            ]
+        },
+        {
+            "name": "BennyDates",
+            "associated": "Freelancer",
+            "description": "This is a web page created to make dates between people, it works similar to other dates webs using the current localization of the user to find and suggest people near him based on his preferences. this web has incorporated a payment system with different amounts to purchase gifts, items, dates and messages, but the main feature of this web is the power to buy tokens and arrange dates with people who puts prices to date with them, so you can put a price to your time and if someone dates with you, the tokens you asked for will be payed as tokens to your account and of course you can withdraw these tokens to real money.",
+            "dateStart": "Oct 2014",
+            "dateEnd": "Feb 2015",
+            "skills": "JavaScript,MySQL,HTML,PHP",
+            "role": "Frontend Engineer",
+            "urls": []
+        }
+    ]
+}
