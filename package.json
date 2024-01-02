@@ -35,8 +35,10 @@
     "zod": "^3.22.4"
   },
   "scripts": {
-    "start": "react-dotenv && react-scripts start",
-    "build": "react-dotenv && react-scripts build",
+    "startlocal": "react-dotenv && react-scripts start",
+    "buildlocal": "react-dotenv && react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-dotenv && react-scripts test",
     "eject": "react-dotenv && react-scripts eject",
     "lint": "eslint src --ext js,ts,tsx --fix",
