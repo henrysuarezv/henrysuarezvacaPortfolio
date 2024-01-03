@@ -57,11 +57,11 @@ const ChatComponent = ({ history, loading }) => {
   const chatContainerRef = useRef();
   useEffect(() => {
     chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
-  }, [history, loading]);
+  }, [loading]);
   return (
     <StyledContainer ref={chatContainerRef}>
       <StyledSystemMessage>
-        Use my AI assistant to explore my professional journey.
+        Use my AI assistant to explore my professional journey!
       </StyledSystemMessage>
       {history.map((elem) => {
         if (elem.role === "AI") {
@@ -84,7 +84,9 @@ const ChatComponent = ({ history, loading }) => {
             </StyledMessage>
           );
         }
-        return <StyledSystemMessage>{elem.text}</StyledSystemMessage>;
+        return (
+          <StyledSystemMessage key={elem.key}>{elem.text}</StyledSystemMessage>
+        );
       })}
       {loading && <Spin style={{ width: "100%" }} />}
     </StyledContainer>

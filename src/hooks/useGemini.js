@@ -6,12 +6,13 @@ import { v4 as uuidv4 } from "uuid";
 import data from "../data.json";
 
 const apiToken = env.GEMINI_TOKEN;
-
-const initialPrompt = `I will provide a JSON object summarizing my job experience as a software developer (work period, project names, skills, etc): ${JSON.stringify(
-  data,
-)}. Answer this question: `;
+const initialPrompt = `You must answer like my personal assistant and provide 
+information about my job experience as software developer and my personal information,
+ i will provide a JSON object with all my data (Henry Suarez VAca), data: ${JSON.stringify(
+   data,
+ )}. Aswer this question: `;
 const endPrompt =
-  "Only answer the question if it's related to my job experience or about me. If you can't answer, say 'I can't answer that; please try another question.'";
+  "Only answer the question if it's related to my job experience or about me. If you can't answer, say 'I can't answer that; please try another question'";
 
 const useGemini = () => {
   const [search, setSearch] = useState("");
