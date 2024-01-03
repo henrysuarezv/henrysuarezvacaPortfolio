@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect } from "react";
 import { Spin } from "antd";
 import styled from "styled-components";
 
@@ -9,6 +9,10 @@ const StyledContainer = styled.div`
   display: block;
   max-height: 250px;
   height: 250px;
+  @media (max-width: 900px) {
+    max-height: 150px;
+    height: 150px;
+  }
 `;
 
 const StyledMessage = styled.div`
@@ -48,44 +52,43 @@ const StyledSystemMessage = styled.div`
   padding: 15;
   color: rgba(0, 0, 0, 0.45);
 `;
+
 const ChatComponent = ({ history, loading }) => {
-    const chatContainerRef = useRef();
-    useEffect(() => {
-        chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
-    }, [history]);
-    return (
-        <StyledContainer ref={chatContainerRef} >
-            <StyledSystemMessage>
-                Use my AI assistant to explore my professional journey.
-            </StyledSystemMessage>
-            {history.map((elem) => {
-                if (elem.role === "AI") {
-                    return (
-                        <StyledMessage key={elem.key}>
-                            <img src="assistant.jpeg" alt="AI Avatar" />
-                            <div className="message-content">
-                                <div className="message-bubble">{elem.text}</div>
-                            </div>
-                        </StyledMessage>
-                    );
-                }
-                if (elem.role === "user") {
-                    return (
-                        <StyledMessage className="own-message">
-                            <div className="message-content">
-                                <div className="message-bubble">{elem.text}</div>
-                            </div>
-                            <img src="guest.jpeg" alt="User Avatar" />
-                        </StyledMessage>
-                    );
-                }
-                return (<StyledSystemMessage>
-                    {elem.text}
-                </StyledSystemMessage>)
-            })}
-            {loading && <Spin style={{ width: "100%" }} />}
-        </StyledContainer>
-    );
+  const chatContainerRef = useRef();
+  useEffect(() => {
+    chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
+  }, [history]);
+  return (
+    <StyledContainer ref={chatContainerRef}>
+      <StyledSystemMessage>
+        Use my AI assistant to explore my professional journey.
+      </StyledSystemMessage>
+      {history.map((elem) => {
+        if (elem.role === "AI") {
+          return (
+            <StyledMessage key={elem.key}>
+              <img src="assistant.jpeg" alt="AI Avatar" />
+              <div className="message-content">
+                <div className="message-bubble">{elem.text}</div>
+              </div>
+            </StyledMessage>
+          );
+        }
+        if (elem.role === "user") {
+          return (
+            <StyledMessage className="own-message">
+              <div className="message-content">
+                <div className="message-bubble">{elem.text}</div>
+              </div>
+              <img src="guest.jpeg" alt="User Avatar" />
+            </StyledMessage>
+          );
+        }
+        return <StyledSystemMessage>{elem.text}</StyledSystemMessage>;
+      })}
+      {loading && <Spin style={{ width: "100%" }} />}
+    </StyledContainer>
+  );
 };
 
 export default ChatComponent;

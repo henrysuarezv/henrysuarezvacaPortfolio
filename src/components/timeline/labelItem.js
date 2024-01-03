@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-const StyledTitle = styled.div`
+export const StyledTitle = styled.div`
   font-size: 24px;
   font-weight: bold;
 `;
 
-const StyledDate = styled.div`
+export const StyledDate = styled.div`
   font-size: 18px;
 `;
 
