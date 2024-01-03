@@ -31,7 +31,6 @@ const ItemTimeline = ({
   dateStart,
   dateEnd,
 }) => {
-  console.log(isMobile);
   return (
     <Card
       actions={urls.map(({ url, label }) => (

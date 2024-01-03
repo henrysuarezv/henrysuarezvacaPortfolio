@@ -57,7 +57,7 @@ const ChatComponent = ({ history, loading }) => {
   const chatContainerRef = useRef();
   useEffect(() => {
     chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
-  }, [history]);
+  }, [history, loading]);
   return (
     <StyledContainer ref={chatContainerRef}>
       <StyledSystemMessage>
@@ -74,9 +74,9 @@ const ChatComponent = ({ history, loading }) => {
             </StyledMessage>
           );
         }
-        if (elem.role === "user") {
+        if (elem.role === "USER") {
           return (
-            <StyledMessage className="own-message">
+            <StyledMessage className="own-message" key={elem.key}>
               <div className="message-content">
                 <div className="message-bubble">{elem.text}</div>
               </div>
