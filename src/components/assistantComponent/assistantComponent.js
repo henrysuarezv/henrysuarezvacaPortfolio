@@ -23,24 +23,22 @@ const StyledCard = styled(Card)`
 `;
 
 const AssistantComponent = () => {
-  const { search, setSearch, history, loading, createHistoryElement } =
-    useGemini();
-  const handleInput = () => createHistoryElement("USER", search);
-  const handleChange = (e) => setSearch(e.target.value);
+  const { history, loading, askAI, setSearch, search } = useGemini();
 
   return (
     <StyledCard
       title="AI assistant"
       actions={[
         <Search
+          allowClear={true}
           placeholder="Ask something about my experience"
-          value={search}
           style={{ paddingLeft: 15, paddingRight: 15 }}
-          onChange={handleChange}
-          onSearch={handleInput}
+          onSearch={() => askAI()}
+          onChange={(e) => setSearch(e.target.value)}
           enterButton="Search"
           size="large"
-          loading={false}
+          loading={loading}
+          value={search}
         />,
       ]}
     >

@@ -1,7 +1,8 @@
 {
   "personalData": {
     "name": "Henry Suarez Vaca",
-    "bornDate": "16/10/1990",
+    "dateOfBirth": "1990-10-16",
+    "age": "33",
     "education": "Universidad Nacional del Litoral - Facultad de Ingenieria y Ciencias Hidrigas",
     "languages": [
       {
@@ -14,11 +15,19 @@
       }
     ],
     "email": "henrysuarezv@hotmail.com",
-    "location": "Santa Fe - Argentina",
+    "address": {
+      "city": "Santa Fe",
+      "state": "Santa Fe",
+      "postalCode": "3000",
+      "country": "Argentina"
+    },
+    "nationality": "Argentinian",
     "linkedin": "https://www.linkedin.com/in/henrysuarezv/",
     "mainSkills": "React.js, JavaScript, Typescript, React Native, Node.js, HTML, CSS",
     "extraSkills": "SCRUM, GIT, Postman, JIRA, linux",
-    "description": "I enjoy working with all kinds of technologies and I try to apply my knowledge in interesting projects and I always try to learn new things to keep growing professionally. Working as a team with people from all over the world and getting to know other cultures is something incredible and I really like this cultural exchange."
+    "description": "I enjoy working with all kinds of technologies and I try to apply my knowledge in interesting projects and I always try to learn new things to keep growing professionally. Working as a team with people from all over the world and getting to know other cultures is something incredible and I really like this cultural exchange.",
+    "currentJobStatus": "Available to work",
+    "jobPreference": "Frontend position"
   },
   "jobs": [
     {
