@@ -17,7 +17,7 @@ const skillsColors = {
   MySQL: "cyan",
   Laravel: "geekblue",
   "React Native": "purple",
-  meteor: "error",
+  meteor: "black",
 };
 const ItemTimeline = ({
   associated,
