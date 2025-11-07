@@ -1,15 +1,16 @@
 import OpenAI from "openai";
 import { useState } from "react";
-import { GoogleGenerativeAI } from "@google/generative-ai";
-import env from "react-dotenv";
 import { v4 as uuidv4 } from "uuid";
 import toml from "@iarna/toml";
 // usar la variable expuesta por react-dotenv
 
-const client = new OpenAI({ apiKey: env.OPENAI_API_KEY, dangerouslyAllowBrowser: true });
+const client = new OpenAI({
+    apiKey: process.env.REACT_APP_OPENAI_API_KEY,
+    dangerouslyAllowBrowser: true,
+});
+
 const currentDate = new Date();
 
-const apiToken = env.GEMINI_TOKEN;
 let data;
 async function loadData() {
     const res = await fetch("/data.toml"); // <-- usar public/data.toml
@@ -37,7 +38,7 @@ const useGemini = () => {
     const [history, setHistory] = useState([]);
     const [loading, setLoading] = useState(false);
 
-    const genAI = new GoogleGenerativeAI(apiToken);
+
 
     const createHistoryElement = (role, text = "Please try again later.") => {
         setHistory((prevHistory) => [
