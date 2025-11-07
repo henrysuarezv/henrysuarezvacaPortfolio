@@ -78,7 +78,7 @@
   },
   "react-dotenv": {
     "whitelist": [
-      "API_URL"
+      "OPENAI_API_KEY"
     ]
   }
 }
